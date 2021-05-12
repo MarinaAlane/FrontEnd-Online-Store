@@ -1,0 +1,23 @@
+.product {    
+  /* align-content: center; */
+  border: solid black 1px;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+  width: 250px;
+  height: 350px;
+  align-items:center ;
+  padding: 5px;
+}
+
+.product-image {
+  height: 150px;
+  width: 150px;
+  align-self: center;
+}
+
+.name-product {
+  height: 50px;
+}
